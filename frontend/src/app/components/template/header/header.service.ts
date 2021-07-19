@@ -9,7 +9,7 @@ export class HeaderService {
 
   private _headerData = new BehaviorSubject<HeaderData>({
     title: 'Início',
-    icon: 'corporate_fare',
+    icon: 'store',
     routeUrl: ''
   })
 
