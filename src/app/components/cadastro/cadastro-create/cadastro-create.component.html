@@ -1,0 +1,33 @@
+<mat-card>
+    <mat-card-title>Novo Cadastro</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Id" [(ngModel)]="cadastro.id" name="id">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="cadastro.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="CPF" [(ngModel)]="cadastro.cpf" name="cpf">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Telefone" [(ngModel)]="cadastro.telefone" name="telefone">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Endereco" [(ngModel)]="cadastro.endereco" name="endereco">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Data de Nascimento" [(ngModel)]="cadastro.dt_nascimento" name="dt_nascimento">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Saldo (R$)" [(ngModel)]="cadastro.saldo" name="saldo">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="createCadastro()" color="primary">
+        Salvar
+    </button>
+
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>
