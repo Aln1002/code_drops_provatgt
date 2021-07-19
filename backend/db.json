@@ -1,0 +1,22 @@
+{
+  "cadastros": [
+    {
+      "id": 1,
+      "name": "Alan Oliveira de Sousa",
+      "cpf": "05372990171",
+      "telefone": "61999127113",
+      "endereco": "quadra 4 conjunto C",
+      "dt_nascimento": "11/03/1997",
+      "price": 2
+    },
+    {
+      "id": "2",
+      "name": "Alan Oliveira de Sousa",
+      "cpf": "05372990171",
+      "telefone": "61999127114",
+      "endereco": "Nova colina quadra 5 conjunto 2",
+      "dt_nascimento": "11/03/1997",
+      "saldo": "2000"
+    }
+  ]
+}
